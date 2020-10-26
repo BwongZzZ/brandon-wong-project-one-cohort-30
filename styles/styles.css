@@ -687,7 +687,11 @@ input::placeholder {
     }
 
     .section2 li {
-        width: calc((100% - 60px) / 2);
+        width: calc((100% - 30px) / 2);
+    }
+
+    .section2 li:nth-child(2n) {
+        margin: 0;
     }
     
     .section2 li:last-child {
@@ -719,12 +723,30 @@ input::placeholder {
         margin-bottom: 100px;
     }
 
+    .footerInfo li {
+        font-size: 1.5rem;
+        padding: 0 4px;
+        margin: 0; 
+    }
+
+    form input[type="email"],
+    form input[type="button"] {
+        width: 100%;
+        padding: 5% 12%;
+    }
+
+    
     form input[type="button"] {  
         font-family: 'Roboto', sans-serif;
+    }
+
+    footer span {
+        width: 100%;
     }
 
     .contactInfo li {
         margin: 0;
     }
+
 }
 
