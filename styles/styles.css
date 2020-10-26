@@ -221,7 +221,8 @@ figure {
 .suzieStoryContent input {
     color: #152D20;
     font-size: 2rem;
-    padding: 15px 30px;
+    padding: 2% 3%;
+    width: 25%;
     font-family: 'Cormorant Garamond', serif;
 }
 
